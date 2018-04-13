@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     public void greet(View v) {
         String name = inputName.getText().toString().trim();
         if (name.length() > 0) {
-            outputView.setText("Hello " + name + "!\nNice to meet you!");
+            outputView.setText("Hello, " + name + "!\nNice to meet you!");
         }
     }
 }
